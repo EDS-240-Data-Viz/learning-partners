@@ -30,6 +30,6 @@ student_groups <- cbind(students, group_num) |>
   arrange(group_num)
 
 #..........................write out csv.........................
-googlesheets4::write_sheet(data = student_groups,
-            ss = "https://docs.google.com/spreadsheets/d/1LW8CUrbilhvz8frKk6JqWsHohs4BNdV8DI8tBK0sA70/edit?usp=sharing",
-            sheet = "week1")
+# googlesheets4::write_sheet(data = student_groups,
+#             ss = "https://docs.google.com/spreadsheets/d/1LW8CUrbilhvz8frKk6JqWsHohs4BNdV8DI8tBK0sA70/edit?usp=sharing",
+#             sheet = "week1")
